@@ -2,7 +2,7 @@
   "name": "habit-tracker",
   "version": "0.1.0",
   "private": true,
-"homepage": "https://rupendark.github.io/habit-tracker",
+  "homepage": "https://rupendark.github.io/habit-tracker",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -23,6 +23,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
