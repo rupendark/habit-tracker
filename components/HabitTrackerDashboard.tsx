@@ -72,7 +72,7 @@ export default function HabitTrackerDashboard() {
             📊 Weekly Progress
           </h2>
           <ResponsiveContainer width="100%" height={260}>
-            <LineChart data={habitData}>
+            <LineChart data={habitData.slice(-7)}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="day" />
               <YAxis />
